@@ -1,0 +1,158 @@
+/* HEADER CSS */
+
+.header {
+    font-family: "Montserrat", sans-serif;
+    height: 100px;
+    background-color:rgb(109, 2, 2);
+    color: rgb(255, 255, 255);
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo img {
+    height: 100%;
+    padding-top: 20px;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.register-buttons {
+    text-align: center;
+    margin-bottom: 30px;
+}
+.register-buttons a {
+    display: inline-block;
+    background-color: rgb(109, 2, 2);
+    padding: 20px;
+    margin-top: 20px;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    border-radius: 20px;
+    border-style: double;
+    border-color: #ffffff;
+    border-width: 1px;
+    font-size: 18px;
+    transition: background-color 0.3s ease;
+}
+
+.register-buttons a:hover {
+    background-color: #da0404;
+}
+
+header input {
+width: 15%; 
+padding: 10px; 
+font-size: 16px; 
+border-radius: 5px; 
+border: 1px double #ff0606;
+box-shadow: 0 0 20px rgb(238, 2, 2);
+}
+
+h2{
+    color: #ffffff;
+}
+
+.navegador {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 15px;
+}
+
+/* BODY CSS */
+
+body {
+    font-family: "Montserrat", sans-serif;
+    background-color: #050505;
+}
+
+.container {
+    width: 90%;
+    margin: 20px auto;
+    padding: 20px;
+    background: rgb(252, 250, 250);
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgb(238, 2, 2);
+    display: flex;
+    flex-wrap: wrap;
+}
+
+h1 {
+    color: rgb(255, 255, 255);
+    font-size: 36px;
+}
+
+/* CARTAS CSS */
+
+.juego {
+    margin-top: 30px;
+    width: 350px;
+    height: 350px;
+    background-color: #f1f1f1;
+    padding-top: 20px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center; 
+    flex-direction: column;
+    margin: 30px;
+    border-width: 1px;
+    border-style: double ;
+    border-color: #f00101;
+}
+
+.juego:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+}
+.juego h2 {
+    margin: 0;
+    font-size: 24px;
+    color: rgb(0, 0, 0);
+}
+.juego p {
+    margin: 10px 0;
+    color: rgb(0, 0, 0);
+    line-height: 1.6;
+}
+.juego a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 350px;
+    height: 70px;
+    padding-top: 0px;
+    border-radius: 10px;
+    background-color: rgb(109, 2, 2);
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+    margin-top:20px ;
+    font-weight: bold;
+}
+.juego a:hover {
+    background-color: #da0404;
+}
+
+.juego img {
+max-width: 50%; 
+height: 50%; 
+border-radius: 5px;
+margin-bottom: 15px; 
+}
+
+/* FOOTER CSS */
+
+footer {
+    width: 100%;
+    padding: 10px 0;
+    background-color: rgb(109, 2, 2);
+    color: white;
+    text-align: center;
+    margin-top: 20px;
+}
+
+
